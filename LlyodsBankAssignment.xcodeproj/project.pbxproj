@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBFBB897246E944B00775280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB896246E944B00775280 /* AppDelegate.swift */; };
+		CBFBB899246E944B00775280 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB898246E944B00775280 /* SceneDelegate.swift */; };
+		CBFBB89B246E944B00775280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB89A246E944B00775280 /* ViewController.swift */; };
+		CBFBB89E246E944B00775280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFBB89C246E944B00775280 /* Main.storyboard */; };
+		CBFBB8A1246E944B00775280 /* LlyodsBankAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB89F246E944B00775280 /* LlyodsBankAssignment.xcdatamodeld */; };
+		CBFBB8A3246E945200775280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFBB8A2246E945200775280 /* Assets.xcassets */; };
+		CBFBB8A6246E945200775280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFBB8A4246E945200775280 /* LaunchScreen.storyboard */; };
+		CBFBB8B1246E945300775280 /* LlyodsBankAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8B0246E945300775280 /* LlyodsBankAssignmentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBFBB8AD246E945300775280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFBB88B246E944B00775280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFBB892246E944B00775280;
+			remoteInfo = LlyodsBankAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBFBB893246E944B00775280 /* LlyodsBankAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LlyodsBankAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFBB896246E944B00775280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBFBB898246E944B00775280 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBFBB89A246E944B00775280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBFBB89D246E944B00775280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBFBB8A0246E944B00775280 /* LlyodsBankAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LlyodsBankAssignment.xcdatamodel; sourceTree = "<group>"; };
+		CBFBB8A2246E945200775280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBFBB8A5246E945200775280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBFBB8A7246E945200775280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFBB8AC246E945300775280 /* LlyodsBankAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LlyodsBankAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFBB8B0246E945300775280 /* LlyodsBankAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlyodsBankAssignmentTests.swift; sourceTree = "<group>"; };
+		CBFBB8B2246E945300775280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFBB890246E944B00775280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFBB8A9246E945300775280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFBB88A246E944B00775280 = {
+			isa = PBXGroup;
+			children = (
+				CBFBB895246E944B00775280 /* LlyodsBankAssignment */,
+				CBFBB8AF246E945300775280 /* LlyodsBankAssignmentTests */,
+				CBFBB894246E944B00775280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFBB894246E944B00775280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB893246E944B00775280 /* LlyodsBankAssignment.app */,
+				CBFBB8AC246E945300775280 /* LlyodsBankAssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFBB895246E944B00775280 /* LlyodsBankAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB896246E944B00775280 /* AppDelegate.swift */,
+				CBFBB898246E944B00775280 /* SceneDelegate.swift */,
+				CBFBB89A246E944B00775280 /* ViewController.swift */,
+				CBFBB89C246E944B00775280 /* Main.storyboard */,
+				CBFBB8A2246E945200775280 /* Assets.xcassets */,
+				CBFBB8A4246E945200775280 /* LaunchScreen.storyboard */,
+				CBFBB8A7246E945200775280 /* Info.plist */,
+				CBFBB89F246E944B00775280 /* LlyodsBankAssignment.xcdatamodeld */,
+			);
+			path = LlyodsBankAssignment;
+			sourceTree = "<group>";
+		};
+		CBFBB8AF246E945300775280 /* LlyodsBankAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB8B0246E945300775280 /* LlyodsBankAssignmentTests.swift */,
+				CBFBB8B2246E945300775280 /* Info.plist */,
+			);
+			path = LlyodsBankAssignmentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFBB892246E944B00775280 /* LlyodsBankAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFBB8B5246E945300775280 /* Build configuration list for PBXNativeTarget "LlyodsBankAssignment" */;
+			buildPhases = (
+				CBFBB88F246E944B00775280 /* Sources */,
+				CBFBB890246E944B00775280 /* Frameworks */,
+				CBFBB891246E944B00775280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LlyodsBankAssignment;
+			productName = LlyodsBankAssignment;
+			productReference = CBFBB893246E944B00775280 /* LlyodsBankAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBFBB8AB246E945300775280 /* LlyodsBankAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFBB8B8246E945300775280 /* Build configuration list for PBXNativeTarget "LlyodsBankAssignmentTests" */;
+			buildPhases = (
+				CBFBB8A8246E945300775280 /* Sources */,
+				CBFBB8A9246E945300775280 /* Frameworks */,
+				CBFBB8AA246E945300775280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFBB8AE246E945300775280 /* PBXTargetDependency */,
+			);
+			name = LlyodsBankAssignmentTests;
+			productName = LlyodsBankAssignmentTests;
+			productReference = CBFBB8AC246E945300775280 /* LlyodsBankAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFBB88B246E944B00775280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Aditi Garg";
+				TargetAttributes = {
+					CBFBB892246E944B00775280 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					CBFBB8AB246E945300775280 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CBFBB892246E944B00775280;
+					};
+				};
+			};
+			buildConfigurationList = CBFBB88E246E944B00775280 /* Build configuration list for PBXProject "LlyodsBankAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBFBB88A246E944B00775280;
+			productRefGroup = CBFBB894246E944B00775280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBFBB892246E944B00775280 /* LlyodsBankAssignment */,
+				CBFBB8AB246E945300775280 /* LlyodsBankAssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFBB891246E944B00775280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFBB8A6246E945200775280 /* LaunchScreen.storyboard in Resources */,
+				CBFBB8A3246E945200775280 /* Assets.xcassets in Resources */,
+				CBFBB89E246E944B00775280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFBB8AA246E945300775280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFBB88F246E944B00775280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFBB89B246E944B00775280 /* ViewController.swift in Sources */,
+				CBFBB897246E944B00775280 /* AppDelegate.swift in Sources */,
+				CBFBB899246E944B00775280 /* SceneDelegate.swift in Sources */,
+				CBFBB8A1246E944B00775280 /* LlyodsBankAssignment.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFBB8A8246E945300775280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFBB8B1246E945300775280 /* LlyodsBankAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBFBB8AE246E945300775280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFBB892246E944B00775280 /* LlyodsBankAssignment */;
+			targetProxy = CBFBB8AD246E945300775280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBFBB89C246E944B00775280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFBB89D246E944B00775280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFBB8A4246E945200775280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFBB8A5246E945200775280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFBB8B3246E945300775280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBFBB8B4246E945300775280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBFBB8B6246E945300775280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJLAPZ3LKA;
+				INFOPLIST_FILE = LlyodsBankAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.LlyodsBankAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBFBB8B7246E945300775280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJLAPZ3LKA;
+				INFOPLIST_FILE = LlyodsBankAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.LlyodsBankAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBFBB8B9246E945300775280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJLAPZ3LKA;
+				INFOPLIST_FILE = LlyodsBankAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.LlyodsBankAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LlyodsBankAssignment.app/LlyodsBankAssignment";
+			};
+			name = Debug;
+		};
+		CBFBB8BA246E945300775280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJLAPZ3LKA;
+				INFOPLIST_FILE = LlyodsBankAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.LlyodsBankAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LlyodsBankAssignment.app/LlyodsBankAssignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFBB88E246E944B00775280 /* Build configuration list for PBXProject "LlyodsBankAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFBB8B3246E945300775280 /* Debug */,
+				CBFBB8B4246E945300775280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFBB8B5246E945300775280 /* Build configuration list for PBXNativeTarget "LlyodsBankAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFBB8B6246E945300775280 /* Debug */,
+				CBFBB8B7246E945300775280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFBB8B8246E945300775280 /* Build configuration list for PBXNativeTarget "LlyodsBankAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFBB8B9246E945300775280 /* Debug */,
+				CBFBB8BA246E945300775280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CBFBB89F246E944B00775280 /* LlyodsBankAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CBFBB8A0246E944B00775280 /* LlyodsBankAssignment.xcdatamodel */,
+			);
+			currentVersion = CBFBB8A0246E944B00775280 /* LlyodsBankAssignment.xcdatamodel */;
+			path = LlyodsBankAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CBFBB88B246E944B00775280 /* Project object */;
+}
