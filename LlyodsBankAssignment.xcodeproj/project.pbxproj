@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CBFBB897246E944B00775280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB896246E944B00775280 /* AppDelegate.swift */; };
-		CBFBB899246E944B00775280 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB898246E944B00775280 /* SceneDelegate.swift */; };
 		CBFBB89B246E944B00775280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB89A246E944B00775280 /* ViewController.swift */; };
 		CBFBB89E246E944B00775280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFBB89C246E944B00775280 /* Main.storyboard */; };
 		CBFBB8A1246E944B00775280 /* LlyodsBankAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB89F246E944B00775280 /* LlyodsBankAssignment.xcdatamodeld */; };
 		CBFBB8A3246E945200775280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFBB8A2246E945200775280 /* Assets.xcassets */; };
 		CBFBB8A6246E945200775280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFBB8A4246E945200775280 /* LaunchScreen.storyboard */; };
 		CBFBB8B1246E945300775280 /* LlyodsBankAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8B0246E945300775280 /* LlyodsBankAssignmentTests.swift */; };
+		CBFBB8BD246E951200775280 /* AsynchronousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8BC246E951100775280 /* AsynchronousView.swift */; };
+		CBFBB8BF246E9D5C00775280 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8BE246E9D5C00775280 /* Constant.swift */; };
+		CBFBB8C2246EA64E00775280 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8C1246EA64E00775280 /* HomeViewController.swift */; };
+		CBFBB8C5246EA6B600775280 /* UpdateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8C4246EA6B600775280 /* UpdateTableViewCell.swift */; };
+		CBFBB8C8246EA75100775280 /* AlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8C7246EA75100775280 /* AlbumsViewModel.swift */; };
+		CBFBB8CB246EA77400775280 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8CA246EA77400775280 /* NetworkClient.swift */; };
+		CBFBB8CE246EA78E00775280 /* AlbumListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBB8CD246EA78E00775280 /* AlbumListService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +36,6 @@
 /* Begin PBXFileReference section */
 		CBFBB893246E944B00775280 /* LlyodsBankAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LlyodsBankAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFBB896246E944B00775280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBFBB898246E944B00775280 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CBFBB89A246E944B00775280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBFBB89D246E944B00775280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBFBB8A0246E944B00775280 /* LlyodsBankAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LlyodsBankAssignment.xcdatamodel; sourceTree = "<group>"; };
@@ -40,6 +45,13 @@
 		CBFBB8AC246E945300775280 /* LlyodsBankAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LlyodsBankAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFBB8B0246E945300775280 /* LlyodsBankAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlyodsBankAssignmentTests.swift; sourceTree = "<group>"; };
 		CBFBB8B2246E945300775280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFBB8BC246E951100775280 /* AsynchronousView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousView.swift; sourceTree = "<group>"; };
+		CBFBB8BE246E9D5C00775280 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CBFBB8C1246EA64E00775280 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CBFBB8C4246EA6B600775280 /* UpdateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTableViewCell.swift; sourceTree = "<group>"; };
+		CBFBB8C7246EA75100775280 /* AlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewModel.swift; sourceTree = "<group>"; };
+		CBFBB8CA246EA77400775280 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		CBFBB8CD246EA78E00775280 /* AlbumListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +93,13 @@
 		CBFBB895246E944B00775280 /* LlyodsBankAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				CBFBB8CC246EA77A00775280 /* ApiService */,
+				CBFBB8C9246EA75A00775280 /* ApiClient */,
+				CBFBB8C6246EA6BC00775280 /* ViewModel */,
+				CBFBB8C3246EA67500775280 /* View */,
+				CBFBB8C0246EA61D00775280 /* ViewController */,
+				CBFBB8BB246E94CD00775280 /* Utility */,
 				CBFBB896246E944B00775280 /* AppDelegate.swift */,
-				CBFBB898246E944B00775280 /* SceneDelegate.swift */,
 				CBFBB89A246E944B00775280 /* ViewController.swift */,
 				CBFBB89C246E944B00775280 /* Main.storyboard */,
 				CBFBB8A2246E945200775280 /* Assets.xcassets */,
@@ -100,6 +117,55 @@
 				CBFBB8B2246E945300775280 /* Info.plist */,
 			);
 			path = LlyodsBankAssignmentTests;
+			sourceTree = "<group>";
+		};
+		CBFBB8BB246E94CD00775280 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB8BC246E951100775280 /* AsynchronousView.swift */,
+				CBFBB8BE246E9D5C00775280 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CBFBB8C0246EA61D00775280 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB8C1246EA64E00775280 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CBFBB8C3246EA67500775280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB8C4246EA6B600775280 /* UpdateTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBFBB8C6246EA6BC00775280 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB8C7246EA75100775280 /* AlbumsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBFBB8C9246EA75A00775280 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB8CA246EA77400775280 /* NetworkClient.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		CBFBB8CC246EA77A00775280 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBB8CD246EA78E00775280 /* AlbumListService.swift */,
+			);
+			path = ApiService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +269,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFBB8C8246EA75100775280 /* AlbumsViewModel.swift in Sources */,
+				CBFBB8BD246E951200775280 /* AsynchronousView.swift in Sources */,
 				CBFBB89B246E944B00775280 /* ViewController.swift in Sources */,
+				CBFBB8BF246E9D5C00775280 /* Constant.swift in Sources */,
 				CBFBB897246E944B00775280 /* AppDelegate.swift in Sources */,
-				CBFBB899246E944B00775280 /* SceneDelegate.swift in Sources */,
+				CBFBB8CB246EA77400775280 /* NetworkClient.swift in Sources */,
+				CBFBB8C5246EA6B600775280 /* UpdateTableViewCell.swift in Sources */,
 				CBFBB8A1246E944B00775280 /* LlyodsBankAssignment.xcdatamodeld in Sources */,
+				CBFBB8C2246EA64E00775280 /* HomeViewController.swift in Sources */,
+				CBFBB8CE246EA78E00775280 /* AlbumListService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
